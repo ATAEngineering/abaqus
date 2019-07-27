@@ -15,10 +15,23 @@ model (FEM). Thermal coupling works in a similar fashion, where Loci/CHEM will
 import a temperature on the interface surface and export a heat flux on that 
 same surface to Abaqus.
 
+<p align="center">
+    <img width="460" height="300" src="images/cosim.png">
+    <br>
+    Pressure contours on a complient panel [1].
+</p>
+
 # References
-[1] Shah, P.N., E.L. Blades, M. Nucci, J. Schoneman, D. Berg, and A. Cornish. 
-    Nonlinear Dynamic Response of Hypersonic Vehicle Skin Panels Using Coupled 
-    Fluid-Thermal-Structural Simulation Tools. IMAC XXXV, February 2017.  
+[1] Blades, E.L., P.N. Shah, M. Nucci, and R.S. Miskovish. Demonstration of
+    Multiphysics Analysis Tools on Representative Hypersonic Vehicle Structures.
+    54th AIAA Structures, Structural Dynamics, and Materials Conference. April
+    8-11, 2013, Boston, Massachusetts.  
+[2] Blades, E.L., et al. Towards a Coupled Multiphysics Analysis Capability for 
+    Hypersonic Vehicle Structures. 52nd AIAA Structures, Structural Dynamics, 
+    and Materials Conference. April 4-7, 2011, Denver, Colorado.  
+[3] Blades, E.L., et al. A Multiphysics Simulation Capability Using the 
+    Simulia Co-Simulation Engine. 20th AIAA Computational Fluid Dynamics
+    Conference. June 27-30, 2011, Honolulu, Hawaii.
 
 # Dependencies
 This module depends on both Loci and CHEM being installed. Loci is an open
