@@ -47,5 +47,6 @@ This module also leverages the CSE and is intended for co-simulation with an
 Abaqus FEM, so licenses for the CSE and Abaqus are required.
 
 # Obtaining The Module
-The source code for the module is freely available to a restricted set of users.
-For more information and to request a copy please contact mnucci@ata-e.com.
+The source code for the module is freely available to the US Government under
+SBIR data rights. For more information and to request a copy please contact 
+mnucci@ata-e.com.
